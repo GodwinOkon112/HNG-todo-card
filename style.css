@@ -1,0 +1,96 @@
+:root {
+  --Cream: hsl(30, 38%, 92%);
+  --Grey-500: hsl(234, 12%, 34%);
+  --Grey-400: hsl(212, 6%, 44%);
+  --Grey-200: hsl(200, 2%, 67%);
+  --White: hsl(0, 0%, 100%);
+  --Red: hsl(0, 78%, 62%);
+  --Blue: hsl(212, 86%, 64%);
+  --font: 0.9rem;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("./font/Poppins_20260212/Poppins-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+  font-size: var(--font);
+  list-style: none;
+  color: var(--Grey-400);
+}
+
+body {
+  background-color: var(--Cream);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.todo__container {
+  background-color: var(--White);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 90%;
+  border-top: 2px solid red;
+  margin-block: 1rem;
+}
+
+.todo__top,
+.todo__status,
+.todo__dates {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.work {
+  letter-spacing: 1rem;
+  font-weight: bold;
+}
+
+.todo__textBox {
+  margin-block: 0.5rem;
+  border: 1px solid var(--Grey-200);
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+.todo__status {
+  margin-block: 1rem;
+}
+
+.todo__textBox p {
+  color: var(--Grey-400);
+}
+.todo__textBox h1 {
+  color: var(--Grey-500);
+  font-size: 1.2rem;
+}
+
+.todo__buttons {
+  margin-top: 1rem;
+}
+
+button {
+  background-color: var(--Blue);
+  color: white;
+  outline: none;
+  padding: 0.1rem 1rem;
+  text-align: center;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: none;
+}
+
+#deleteBtn {
+  background-color: var(--Red);
+}
+
+#status {
+  color: var(--Red);
+}
