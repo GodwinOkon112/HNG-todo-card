@@ -22,14 +22,14 @@ Key requirements:
 ### Screenshot
 
 
-
+![alt text](<Screenshot 2026-04-15 002521.png>)
 
 
 ### Links
 
-* Solution URL: *(Add your GitHub repo link)*
-* Live Site URL: *(Add deployed link if available)*
+* Solution URL: (https://github.com/GodwinOkon112/HNG-todo-card)
 
+* Live Site URL: https://hng-todo-card-ruddy.vercel.app/
 
 
 ## My process
@@ -109,8 +109,8 @@ AI helped me:
 ## Author
 
 * Name: Godwin Okon
-* GitHub: *(Add your GitHub profile link)*
-* LinkedIn: *(Optional)*
+* GitHub: https://github.com/GodwinOkon112/
+
 
 
 ## Acknowledgments
